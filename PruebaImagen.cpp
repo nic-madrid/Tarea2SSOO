@@ -5,8 +5,12 @@
 using namespace cv;
 using namespace std;
 
+<<<<<<< HEAD
 int main()
 {
+=======
+int main() {
+>>>>>>> 450bbcce3d09fc6f03aaee85a975f4e02b1c3407
     // Carpeta que contiene las imágenes de entrada
     string folderName = "imagenes";
 
@@ -27,8 +31,12 @@ int main()
     // Cargar la imagen desde el archivo de entrada
     Mat img = imread(inputPath);
 
+<<<<<<< HEAD
     if (img.empty())
     {
+=======
+    if (img.empty()) {
+>>>>>>> 450bbcce3d09fc6f03aaee85a975f4e02b1c3407
         cout << "No se pudo cargar la imagen de entrada: " << inputPath << endl;
         return 1;
     }
@@ -40,10 +48,15 @@ int main()
     // Convertir la imagen a escala de grises utilizando el método de luminosidad
     Mat grayImg(rows, cols, CV_8UC1);
 
+<<<<<<< HEAD
     for (int i = 0; i < rows; i++)
     {
         for (int j = 0; j < cols; j++)
         {
+=======
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+>>>>>>> 450bbcce3d09fc6f03aaee85a975f4e02b1c3407
             Vec3b pixel = img.at<Vec3b>(i, j);
 
             // Calcular la luminosidad
@@ -61,6 +74,10 @@ int main()
     waitKey(0);
 
     // Guardar la imagen en escala de grises en el archivo de salida
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 450bbcce3d09fc6f03aaee85a975f4e02b1c3407
 
     cout << "Imagen en escala de grises (Luminosidad) guardada en: " << outputPath << endl;
 
