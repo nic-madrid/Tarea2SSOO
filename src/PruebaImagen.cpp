@@ -6,14 +6,28 @@ using namespace cv;
 using namespace std;
 
 int main() {
-    // Ruta de la imagen
-    string path = "imagenes/Zero.jpg";
+    // Carpeta que contiene las imágenes de entrada
+    string folderName = "imagenes";
 
-    // Cargar la imagen desde el archivo
-    Mat img = imread(path);
+    // Pedir al usuario el nombre de la imagen de entrada
+    cout << "Ingrese el nombre de la imagen de entrada (con extension, por ejemplo, imagen.jpg): ";
+    string inputName;
+    cin >> inputName;
+
+    // Pedir al usuario el nombre de la imagen de salida
+    cout << "Ingrese el nombre de la imagen de salida (con extension, por ejemplo, salida.png): ";
+    string outputName;
+    cin >> outputName;
+
+    // Construir las rutas completas de los archivos de entrada y salida
+    string inputPath = folderName + "/" + inputName;
+    string outputPath = "imagenesConvertidas/" + outputName;
+
+    // Cargar la imagen desde el archivo de entrada
+    Mat img = imread(inputPath);
 
     if (img.empty()) {
-        cout << "No se pudo cargar la imagen: " << path << endl;
+        cout << "No se pudo cargar la imagen de entrada: " << inputPath << endl;
         return 1;
     }
 
@@ -21,7 +35,7 @@ int main() {
     int rows = img.rows;
     int cols = img.cols;
 
-    // Convertir la imagen a escala de grises utilizando el m�todo de luminosidad
+    // Convertir la imagen a escala de grises utilizando el método de luminosidad
     Mat grayImg(rows, cols, CV_8UC1);
 
     for (int i = 0; i < rows; i++) {
@@ -39,12 +53,11 @@ int main() {
     // Mostrar la imagen original y la imagen en escala de grises
     imshow("Imagen Original", img);
     imshow("Imagen en Escala de Grises (Luminosidad)", grayImg);
-
+    imwrite(outputPath, grayImg);
     waitKey(0);
 
-    // Guardar la imagen en escala de grises en una carpeta
-    string outputPath = "imagenesConvertidas/ImagenEnEscalaGris.png";
-    imwrite(outputPath, grayImg);
+    // Guardar la imagen en escala de grises en el archivo de salida
+   
 
     cout << "Imagen en escala de grises (Luminosidad) guardada en: " << outputPath << endl;
 
