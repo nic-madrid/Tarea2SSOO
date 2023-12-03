@@ -1,6 +1,6 @@
 # Tarea2SSOO
 
-Descripción del proyecto.
+Nuestro proyecto se basa en el procesamiento de imágenes mediante tres metodos: Procesamiento Secuencial (PS), Procesamiento con Threads (PT) y Procesamiento con OpenMP (POMP). El objetivo es comparar y analizar el rendimiento de cada metodo en términos de velocidad y eficiencia al procesar imágenes.
 
 ## Instrucciones de Uso
 
@@ -79,4 +79,4 @@ Las dependencias utilizadas para este trabajo fueron:
 * OpenMP, para manipular threads
 * Chrono, para medir el tiempo que demora en ejecutar
 * iostream, para mensajes en consola
-* vector
+* vector, para manipulación de vectores.
