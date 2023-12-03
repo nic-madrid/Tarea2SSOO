@@ -41,10 +41,9 @@ int main() {
     int rows = img.rows;
     int cols = img.cols;
 
-    // Asegurarse de que el n�mero de hilos no sea mayor que el n�mero de filas
+    // Asegurarse de que el numero de hilos no sea mayor que el numero de filas
     numThreads = min(numThreads, rows);
 
-    // Convertir la imagen a escala de grises sin utilizar funciones de OpenCV
     Mat grayImg(rows, cols, CV_8UC1);  // Matriz para la imagen en escala de grises
 
     auto start = high_resolution_clock::now();
@@ -64,7 +63,7 @@ int main() {
 
     auto stop = high_resolution_clock::now();
 
-    // Mostrar el tiempo de ejecuci�n en milisegundos
+    // Mostrar el tiempo de ejecucion en milisegundos
     auto duration = duration_cast<milliseconds>(stop - start);
     cout << "Tiempo de ejecucion: " << duration.count() << " ms" << endl;
 
@@ -72,10 +71,9 @@ int main() {
     imshow("Imagen Original", img);
     imshow("Imagen en Escala de Grises (Luminosidad)", grayImg);
 
-    // Esperar hasta que se presione una tecla
     waitKey(0);
 
-    // Guardar la imagen en escala de grises en el archivo de salida
+    // Guardar la imagen en escala de grises
     imwrite(outputPath, grayImg);
 
     cout << "Imagen en escala de grises (Luminosidad) guardada en: " << outputPath << endl;

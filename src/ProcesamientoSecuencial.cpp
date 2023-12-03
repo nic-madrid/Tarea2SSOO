@@ -56,7 +56,7 @@ int main() {
     imwrite(outputPath, grayImg);
     waitKey(0);
 
-    // Guardar la imagen en escala de grises en el archivo de salida
+    // Guardar la imagen en escala de grises 
    
 
     cout << "Imagen en escala de grises (Luminosidad) guardada en: " << outputPath << endl;
