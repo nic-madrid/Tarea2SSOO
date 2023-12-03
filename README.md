@@ -47,7 +47,8 @@ Ahora procedemos a utilizar los ejecutables
 ![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/150937bd-9215-45f6-a373-5981de05cc2a)
 
 * Se nos abre la imagen a tamaño completo en ambos formatos y por consola se muestra el tiempo que demora
-![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/f92ddd7a-a08c-4267-b30c-451b9790e24a)
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/7e13847f-0a11-4f27-9e9e-ce059a7f8515)
+
 
 
 #### POMP
