@@ -11,9 +11,13 @@ Para poder ejecutar los programas primero necesitamos ejecutar nuestro archivo m
 * PT, Procesamiento Threads
 * POMP, Procesamiento OpenMP
 
-### Ejemplo de Uso
+### Como usar
 
-Ejemplos de cómo utilizar el proyecto...
+Una vez ejecutado el comando make se nos generaran 3 ejecutables; PS, PT y POMP
+
+* Para Ejecutar PS simplemente escribimos ./PS
+
+
 
 ## Estructura del Proyecto
 
@@ -26,9 +30,5 @@ Las dependencias utilizadas para este trabajo fueron:
 * OpenCV, para manipular la matriz de pixeles
 * OpenMP, para manipular threads
 * Chrono, para medir el tiempo que demora en ejecutar
-* iostream
+* iostream, para mensajes en consola
 * vector
-
-## Ejemplos e Imágenes
-
-Capturas de pantalla o imágenes...
