@@ -20,6 +20,7 @@ Para poder ejecutar los programas primero necesitamos ejecutar nuestro archivo m
 * PS, Procesamiento Secuencial
 * PT, Procesamiento Threads
 * POMP, Procesamiento OpenMP
+
 ![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/7af4220d-fb29-455f-902a-8381c6878685)
 ![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/788afe1f-d2ff-4ac3-9672-9a291e0294cb)
 
