@@ -9,19 +9,19 @@ using namespace cv;
 using namespace std;
 using namespace chrono;
 
-// Función que convierte una parte de la imagen a escala de grises
+// Funciï¿½n que convierte una parte de la imagen a escala de grises
 void convertToGrayscale(const Mat& input, Mat& output, int startRow, int endRow) {
     for (int i = startRow; i < endRow; i++) {
         for (int j = 0; j < input.cols; j++) {
             Vec3b pixel = input.at<Vec3b>(i, j);
-            uchar luminosity = static_cast<uchar>(0.21 * pixel[2] + 0.72 * pixel[1] + 0.07 * pixel[0]);
+            uchar luminosity = static_cast<uchar>(0.3 * pixel[2] + 0.59 * pixel[1] + 0.11 * pixel[0]);
             output.at<uchar>(i, j) = luminosity;
         }
     }
 }
 
 int main() {
-    // Carpeta que contiene las imágenes de entrada
+    // Carpeta que contiene las imï¿½genes de entrada
     string folderName = "imagenes";
 
     // Pedir al usuario el nombre de la imagen de entrada
@@ -50,7 +50,7 @@ int main() {
     int rows = img.rows;
     int cols = img.cols;
 
-    // Pedir al usuario el número de hilos a utilizar
+    // Pedir al usuario el nï¿½mero de hilos a utilizar
     int numThreads;
     cout << "Ingrese el numero de hilos a utilizar: ";
     cin >> numThreads;
@@ -82,7 +82,7 @@ int main() {
     imshow("Imagen en Escala de Grises (Luminosidad)", grayImg);
     auto stop = high_resolution_clock::now();
 
-    // Calcular la duración en milisegundos
+    // Calcular la duraciï¿½n en milisegundos
     auto duration = duration_cast<milliseconds>(stop - start);
 
     cout << "Tiempo de ejecucion: " << duration.count() << " ms" << endl;

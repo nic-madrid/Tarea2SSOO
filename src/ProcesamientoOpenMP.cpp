@@ -41,7 +41,7 @@ int main() {
     int rows = img.rows;
     int cols = img.cols;
 
-    // Asegurarse de que el número de hilos no sea mayor que el número de filas
+    // Asegurarse de que el nï¿½mero de hilos no sea mayor que el nï¿½mero de filas
     numThreads = min(numThreads, rows);
 
     // Convertir la imagen a escala de grises sin utilizar funciones de OpenCV
@@ -55,7 +55,7 @@ int main() {
             Vec3b pixel = img.at<Vec3b>(i, j);
 
             // Calcular el valor de gris ponderado por la luminosidad
-            uchar grayValue = static_cast<uchar>(0.21 * pixel[2] + 0.72 * pixel[1] + 0.07 * pixel[0]);
+            uchar grayValue = static_cast<uchar>(0.3 * pixel[2] + 0.59 * pixel[1] + 0.11 * pixel[0]);
 
             // Asignar el nuevo valor al pixel en la imagen en escala de grises
             grayImg.at<uchar>(i, j) = grayValue;
@@ -64,7 +64,7 @@ int main() {
 
     auto stop = high_resolution_clock::now();
 
-    // Mostrar el tiempo de ejecución en milisegundos
+    // Mostrar el tiempo de ejecuciï¿½n en milisegundos
     auto duration = duration_cast<milliseconds>(stop - start);
     cout << "Tiempo de ejecucion: " << duration.count() << " ms" << endl;
 
