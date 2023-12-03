@@ -68,4 +68,13 @@ Ahora procedemos a utilizar los ejecutables
 
 
 ### Conclusiones finales
+* El metodo mas eficiente para procesar imagenes en escala de grises es OpenMP
+* Como podemos apreciar, para la imagen de la NASA, su punto optimo es a la altura de 6 nucleos, esto se debe al tamaño de la imagen que se esta procesando, en cambio para la funcion con threads se necesita de mas potencia por parte de la maquina para procesar la imagen
+
+Thread
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/58f87e73-14ec-489e-8b3a-c974d6566e57)
+
+OpenMP
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/0892fd3c-5d85-411d-bcce-7267e37175b9)
+
 
