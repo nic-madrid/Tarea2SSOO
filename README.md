@@ -14,7 +14,8 @@ Para poder ejecutar los programas primero necesitamos ejecutar nuestro archivo m
 ### Como usar
 
 Una vez ejecutado el comando make se nos generaran 3 ejecutables; PS, PT y POMP
-Pero para utilizarlos necesitamos imagenes de prueba, en nuestro caso utiizamos la siguiente imagen: https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73751/world.topo.bathy.200407.3x21600x21600.C1.png
+Pero para utilizarlos necesitamos imagenes de prueba, en nuestro caso utiizamos la siguiente imagen: 
+* https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73751/world.topo.bathy.200407.3x21600x21600.C1.png
 Ahora procedemos a utilizar los ejecutables
 
 * Para Ejecutar PS simplemente escribimos ./PS
