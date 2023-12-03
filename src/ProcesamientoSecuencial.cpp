@@ -48,7 +48,7 @@ int main() {
             Vec3b pixel = img.at<Vec3b>(i, j);
 
             // Calcular la luminosidad
-            uchar luminosity = static_cast<uchar>(0.21 * pixel[2] + 0.72 * pixel[1] + 0.07 * pixel[0]);
+            uchar luminosity = static_cast<uchar>(0.3 * pixel[2] + 0.59 * pixel[1] + 0.11 * pixel[0]);
 
             // Asignar el valor de luminosidad al pixel en la imagen en escala de grises
             grayImg.at<uchar>(i, j) = luminosity;
