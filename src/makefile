@@ -1,6 +1,6 @@
 # carga de librerias
 CC = g++
-CFLAGS = -Wall -std=c++11 $(shell pkg-config --cflags opencv4)
+CFLAGS = -Wall -std=c++11 -fopenmp $(shell pkg-config --cflags opencv4)
 LDFLAGS = $(shell pkg-config --cflags --libs opencv4)
 
 # nombre de los ejecutables
