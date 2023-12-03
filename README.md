@@ -16,9 +16,28 @@ Para poder ejecutar los programas primero necesitamos ejecutar nuestro archivo m
 Una vez ejecutado el comando make se nos generaran 3 ejecutables; PS, PT y POMP
 Pero para utilizarlos necesitamos imagenes de prueba, en nuestro caso utiizamos la siguiente imagen: 
 * https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73751/world.topo.bathy.200407.3x21600x21600.C1.png
+
 Ahora procedemos a utilizar los ejecutables
 
-* Para Ejecutar PS simplemente escribimos ./PS
+#### PS
+* Primero ejecutamos el comando "./PS"
+* Luego escribimos el nombre de la imagen a procesar
+* Luego escribimos el nombre que queremos que tenga la imagen de salida
+* Se nos abre la imagen a tamaño completo en ambos formatos y por consola se muestra el tiempo que demora
+
+#### PT
+* Primero ejecutamos el comando "./PT"
+* Luego escribimos el nombre de la imagen a procesar
+* Luego escribimos el nombre que queremos que tenga la imagen de salida
+* Escogemos la cantidad de nucleos a utilizar
+* Se nos abre la imagen a tamaño completo en ambos formatos y por consola se muestra el tiempo que demora
+
+#### POMP
+* Primero ejecutamos el comando "./POMP"
+* Luego escribimos el nombre de la imagen a procesar
+* Luego escribimos el nombre que queremos que tenga la imagen de salida
+* Escogemos la cantidad de nucleos a utilizar
+* Se nos abre la imagen a tamaño completo en ambos formatos y por consola se muestra el tiempo que demora
 
 
 
