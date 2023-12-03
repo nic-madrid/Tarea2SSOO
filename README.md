@@ -22,12 +22,12 @@ El proyecto fue estructurado en base a lo que se nos solicito, una carpeta "src"
 ## Dependencias
 
 Las dependencias utilizadas para este trabajo fueron:
-* <threads>, para la manejar threads
-* <OpenCV>, para manipular la matriz de pixeles
-* <OpenMP>, para manipular threads
-* <Chrono>, para medir el tiempo que demora en ejecutar
-* <iostream>
-* <vector>
+* threads, para la manejar threads
+* OpenCV, para manipular la matriz de pixeles
+* OpenMP, para manipular threads
+* Chrono, para medir el tiempo que demora en ejecutar
+* iostream
+* vector
 
 ## Ejemplos e Imágenes
 
