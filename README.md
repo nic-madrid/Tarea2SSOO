@@ -11,6 +11,13 @@ Para poder ejecutar los programas primero necesitamos ejecutar nuestro archivo m
 * PT, Procesamiento Threads
 * POMP, Procesamiento OpenMP
 
+#### cd src, ls -l y make
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/7af4220d-fb29-455f-902a-8381c6878685)
+
+#### ls -l
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/788afe1f-d2ff-4ac3-9672-9a291e0294cb)
+
+
 ### Como usar
 
 Una vez ejecutado el comando make se nos generaran 3 ejecutables; PS, PT y POMP
@@ -23,23 +30,40 @@ Ahora procedemos a utilizar los ejecutables
 * Primero ejecutamos el comando "./PS"
 * Luego escribimos el nombre de la imagen a procesar
 * Luego escribimos el nombre que queremos que tenga la imagen de salida
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/0b3a4373-9e67-4b0c-8d56-51eab7222eea)
+
 * Se nos abre la imagen a tamaño completo en ambos formatos y por consola se muestra el tiempo que demora
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/692f9376-8976-433d-8fe0-51623cbbcf80)
+
+  
 * Una vez cerramos la ventana nos muestra la ruta en donde queda almacenado
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/34217dc2-4e47-4702-8043-2f4488fdbdf4)
+
 
 #### PT
 * Primero ejecutamos el comando "./PT"
 * Luego escribimos el nombre de la imagen a procesar
 * Luego escribimos el nombre que queremos que tenga la imagen de salida
 * Escogemos la cantidad de nucleos a utilizar
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/150937bd-9215-45f6-a373-5981de05cc2a)
+
 * Se nos abre la imagen a tamaño completo en ambos formatos y por consola se muestra el tiempo que demora
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/f92ddd7a-a08c-4267-b30c-451b9790e24a)
+
 
 #### POMP
 * Primero ejecutamos el comando "./POMP"
 * Luego escribimos el nombre de la imagen a procesar
 * Luego escribimos el nombre que queremos que tenga la imagen de salida
 * Escogemos la cantidad de nucleos a utilizar
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/30163524-0f3b-4bba-96c0-44ca1da98c0f)
+
 * Se nos abre la imagen a tamaño completo en ambos formatos y por consola se muestra el tiempo que demora
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/52292a60-1fa7-4aaf-9297-ce246293d4fd)
+
 * Una vez cerramos la ventana nos muestra la ruta en donde queda almacenado
+![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/180fdff2-e46a-4d99-b54e-044d3c6a708b)
+
 
 
 
