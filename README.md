@@ -11,10 +11,9 @@ Para poder ejecutar los programas primero necesitamos ejecutar nuestro archivo m
 * PT, Procesamiento Threads
 * POMP, Procesamiento OpenMP
 
-#### cd src, ls -l y make
+
 ![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/7af4220d-fb29-455f-902a-8381c6878685)
 
-#### ls -l
 ![image](https://github.com/nic-madrid/Tarea2SSOO/assets/142953854/788afe1f-d2ff-4ac3-9672-9a291e0294cb)
 
 
