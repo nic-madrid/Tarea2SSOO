@@ -1,4 +1,4 @@
-# Tarea2SSOO
+# Tarea 2 - SSOO
 
 Nuestro proyecto se basa en el procesamiento de imágenes mediante tres metodos: Procesamiento Secuencial (PS), Procesamiento con Threads (PT) y Procesamiento con OpenMP (POMP). El objetivo es comparar y analizar el rendimiento de cada metodo en términos de velocidad y eficiencia al procesar imágenes.
 
